@@ -5,3 +5,77 @@
     font-family: 'PT Sans', sans-serif;
     box-sizing: border-box;
 }
+/* Universal Design */
+button{
+    border: 1px solid #f2e3ff;
+    background-color: #fff;
+    padding: 10px;
+    color: #9655f9;
+    font-size: 14px;
+    font-weight: 700;
+}
+.container-picture img{
+    height: 360px;
+    width: 400px;
+}
+span{
+    color: #8f49f9;
+    font-size: 14px;
+    font-weight: 700;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+h2{
+    font-size: 45px;
+    color: #000;
+    font-weight: 700;
+}
+h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+}
+/* Navbar design */
+
+/* Banner Design */
+#banner{
+    background: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url("/img/background.png");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.banner-design .banner-cont{
+    text-align: left;
+    color: #fff;
+    padding-top: 10%;
+}
+.banner-design img{
+    height: 200x;
+    width: 500px;
+    padding-top: 30%;
+}
+
+.banner-img{
+    text-align: right;
+}
+
+/* services section */
+#service{
+    padding-top: 80px;
+}
+.inline-class{
+    display: flex;
+}
+.inline-class h5{
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-top: 2px;
+}
