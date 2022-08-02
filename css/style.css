@@ -19,6 +19,7 @@ button{
     font-size: 14px;
     font-weight: 700;
     box-shadow: 1px 1px 2px 2px  rgba(0, 0, 0, 0.2);
+    text-transform: uppercase !important;
 }
 .container-picture img{
     height: 360px;
@@ -27,7 +28,7 @@ button{
 span{
     color: #8f49f9;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
 }
 h1{
     font-size: 40px;
@@ -100,7 +101,7 @@ p{
 
 /* Banner Design */
 #banner{
-    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.9), rgba(196, 83, 249, 0.9)), url(/img/background.png);
+    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url(/img/background.png);
     color: #fff;
     padding-top: 5%;
     background-position: center;
@@ -128,3 +129,125 @@ p{
 }
 
 /* Services Section */
+
+.container-picture img{
+    height: 370px;
+    width: 300px;
+}
+.two-container-div h2{
+    padding-top: 20px;
+}
+.butt{
+    padding-top: 20px;
+}
+.inside-container{
+    padding-top: 20px;
+    padding-left: 0px !important;
+}
+.inline-class{
+    display: inline-flex;
+}
+.inline-class h5{
+    font-size: 14px;
+    color: #000;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-weight: 700;
+}
+
+/* Analysis List Section */
+#analysis{
+    background-image: url(/img/section_3background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.analysis-div h2{
+    text-align: left;
+    word-wrap: break-word;
+}
+.button-a{
+    text-align: right;
+}
+.analysis-row{
+    margin-top: 50px !important;
+}
+.univ-d{
+    border: 1px solid rgb(232, 227, 227);
+    box-shadow: 1px 1px 2px 2px  rgba(116, 114, 114, 0.5);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.univ-d img{
+    height: 40px;
+    width: 36px;
+    color: #fff;
+}
+.univ-d h2{
+    padding-top: 30px !important;
+    font-size: 20px;
+    color: #000;
+    font-weight: 800;
+}
+.univ-d p{
+    padding-top: 20px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+.univ-d ul{
+    padding-top: 30px !important;
+    list-style: none;
+    padding: 0;
+}
+.univ-d .icon img{
+    height: 25px;
+    width: 25px;
+}
+.univ-d .icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.univ-d ul li{
+    font-size: 14px;
+    padding: 5px 0;
+}
+.univ-d ul li::before{
+    content: "+";
+    color: #fff;
+    font-weight: 700;
+    margin-right: 4px;
+    border: 1px solid #8f49f9;
+    border-radius: 50%;
+    background-color: #8f49f9;
+}
+.div-one{
+    background-image: url(/img/facalty1.png);
+}
+.icon-design-one{
+    background-color: #9de78a;
+    border: 1px solid #9de78a;
+}
+.div-two{
+    background-image: url(/img/facalty2.png);
+}
+.icon-design-two{
+    background-color: #4ae4a8;
+    border: 1px solid #4ae4a8;
+}
+.div-three{
+    background-image: url(/img/facalty3.png);
+}
+.icon-design-three{
+    background-color: #ffaaf6;
+    border: 1px solid #ffaaf6;
+}
+
