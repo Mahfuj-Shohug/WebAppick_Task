@@ -6,13 +6,19 @@
     box-sizing: border-box;
 }
 /* Universal Design */
+section {
+    padding: 80px 0;
+    overflow: hidden;
+  }
+  
 button{
     border: 1px solid #f2e3ff;
     background-color: #fff;
-    padding: 10px;
+    padding: 10px 25px;
     color: #9655f9;
     font-size: 14px;
     font-weight: 700;
+    box-shadow: 1px 1px 2px 2px  rgba(0, 0, 0, 0.2);
 }
 .container-picture img{
     height: 360px;
@@ -24,58 +30,101 @@ span{
     font-weight: 700;
 }
 h1{
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 700;
 }
 h2{
-    font-size: 45px;
-    color: #000;
+    font-size: 30px;
     font-weight: 700;
 }
 h5{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 p{
-    font-size: 16px;
+    font-size: 14px;
 }
 /* Navbar design */
+#navigation-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8));
+    padding-top: 10px;
+}
+.navbar-brand{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+    font-size: 15px;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 25px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.d-flex{
+    float: right !important;
+    text-align: left !important;
+}
+.d-flex a{
+    font-size: 16px;
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none !important;
+}
+.d-flex a span{
+    font-size: 10px;
+    color: #000;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+.d-flex a:hover{
+    color: #fff;
+}
 
 /* Banner Design */
 #banner{
-    background: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url("/img/background.png");
-    height: 80vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-.banner-design .banner-cont{
-    text-align: left;
+    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.9), rgba(196, 83, 249, 0.9)), url(/img/background.png);
     color: #fff;
-    padding-top: 10%;
-}
-.banner-design img{
-    height: 200x;
-    width: 500px;
-    padding-top: 30%;
+    padding-top: 5%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    
 }
 
+.banner-design h1{
+    margin-top: 50px;
+}
+.banner-design p{
+   padding-top: 10px;
+   padding-bottom: 5px;
+}
+.banner-design img{
+    height: 300px;
+    width: 430px;
+}
 .banner-img{
+    padding-top: 100px;
     text-align: right;
 }
 
-/* services section */
-#service{
-    padding-top: 80px;
-}
-.inline-class{
-    display: flex;
-}
-.inline-class h5{
-    font-size: 14px;
-    color: #000;
-    font-weight: 700;
-    padding-left: 5px;
-    padding-top: 2px;
-}
+/* Services Section */
