@@ -7,7 +7,8 @@
 }
 /* Universal Design */
 section {
-    padding: 50px 0;
+    margin: 30px 0;
+    padding: 30px 0;
     overflow: hidden;
   }
   
@@ -16,6 +17,16 @@ button{
     background-color: #fff;
     padding: 10px 25px;
     color: #9655f9;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 1px 1px 2px 2px  rgba(0, 0, 0, 0.2);
+    text-transform: uppercase !important;
+}
+button:hover{
+    border: 1px solid #9655f9;
+    background-color: #9655f9;
+    padding: 10px 25px;
+    color: #fff;
     font-size: 14px;
     font-weight: 700;
     box-shadow: 1px 1px 2px 2px  rgba(0, 0, 0, 0.2);
@@ -107,6 +118,7 @@ p{
 
 /* Banner Design */
 #banner{
+    margin: 0 0 !important;
     background-image: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url(/img/background.png);
     color: #fff;
     padding-top: 5%;
@@ -186,7 +198,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
-    margin: 40px;
+    margin: 30px;
 }
 .univ-d img{
     height: 40px;
@@ -250,4 +262,124 @@ p{
 .icon-design-three{
     background-color: #ffaaf6;
     border: 1px solid #ffaaf6;
+}
+/* Company History Section */
+#agency{
+    background-image: url(/img/section_2_background.png);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon2 img{
+    height: 20px;
+    width: 15px;
+}
+.icon2{
+    height: 60px;
+    width: 60px;
+    border: 1px solid #b790fc;
+    background-color: #b790fc;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+.container-picture2{
+    text-align: right;
+    background-image: url(/img/Ellipse.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.container-picture2 img{
+    height: 280px;
+    width: 360px;
+}
+
+.agency-div h5{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.agency-div h2{
+    padding-bottom: 30px;
+}
+.agency-div p{
+    padding-bottom: 30px;
+}
+.bannar-button{
+    border: 1px solid #9655f9;
+    background-color: #9655f9;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Company Services Section */
+#our-services{
+    background-image: url(/img/section_3background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.our-services{
+    padding-top: 10%;
+    text-align: left;
+}
+.our-services h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icons{
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding-top: 5px;
+    vertical-align: middle !important;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10%;
+    box-shadow: 2px 3px 2px 1px  rgba(168, 165, 165, 0.1);
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+}
+.service{
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 3px 3px  rgba(168, 165, 165, 0.1);
+    padding: 20px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+.service h2{
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 700;
+}
+.services-design1{
+    background-image: url(/img/facalty3.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-design2{
+    background-image: url(/img/facalty3.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-design3{
+    background-image: url(/img/facalty2.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-design4{
+    background-image: url(/img/facalty4.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
