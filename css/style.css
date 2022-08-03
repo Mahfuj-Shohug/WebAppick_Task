@@ -412,3 +412,106 @@ p{
 .degi{
     font-size: 12px !important;
 }
+.agency-div2{
+    height: 300px;
+    margin: 20px;
+    background-color: #f1e8ff;
+    border-radius: 5%;
+}
+.task-sec{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.task-sec button{
+    text-align: center;
+    margin-top: 20px;
+}
+#task{
+    background-image: url(/img/section_4_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Testimunial section */
+#testimunial{
+    background-image: url(/img/section_5_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+}
+.testimunials{
+    text-align: center;
+}
+.testimunials h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.testimunial-spech{
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 4px 3px  #f7f2fe;
+    padding: 30px;
+    margin: 30px 300px;
+}
+
+.testimunial-spech h5{
+    padding-top: 30px !important;
+    font-weight: 700;
+}
+.testimunial-spech span{
+    font-size: 12px;
+}
+.arrow-div a{
+    text-decoration: none;
+    color: #b188fb;
+    padding: 0 10px;
+}
+.arrow-div a:hover{
+    color: #b188fb;
+}
+.arrow-div .fa{
+    padding-top: 10px;
+}
+.arrow-div .fa-arrow-right{
+    position: absolute;
+    border: 1px solid #8f49f9;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #8f49f9;
+    border-radius: 50%;
+}
+/* Blog Section */
+#blog h2{
+    text-align: center;
+    padding: 20px;
+}
+.blog-img{
+    height: 250px;
+    background-color: #e9e5fe;
+}
+.blog-div{
+    padding: 15px;
+    margin: 20px;
+}
+.blog-date{
+    z-index: -1;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
+    border-radius: 10%;
+}
+
+/* Footer Section  */
+#footer{
+    background-image: url(/img/footer_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
