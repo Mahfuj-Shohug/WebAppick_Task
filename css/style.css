@@ -7,7 +7,7 @@
 }
 /* Universal Design */
 section {
-    padding: 80px 0;
+    padding: 50px 0;
     overflow: hidden;
   }
   
@@ -83,17 +83,23 @@ p{
 }
 .d-flex a{
     font-size: 16px;
-    padding: 0 10px;
+    padding: 0 20px;
     color: #fff;
     text-decoration: none !important;
 }
-.d-flex a span{
-    font-size: 10px;
+.d-flex .chart-value{
+    text-align: center;
+    position: absolute;
+    font-size: 7px;
+    font-weight: 700;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
     color: #000;
     border: 1px solid #fff;
     background-color: #fff;
     border-radius: 50%;
-    
+    z-index: 10;
 }
 .d-flex a:hover{
     color: #fff;
@@ -170,7 +176,7 @@ p{
     text-align: right;
 }
 .analysis-row{
-    margin-top: 50px !important;
+    margin-top: 20px !important;
 }
 .univ-d{
     border: 1px solid rgb(232, 227, 227);
@@ -179,7 +185,8 @@ p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px;
+    padding: 20px;
+    margin: 40px;
 }
 .univ-d img{
     height: 40px;
@@ -220,14 +227,8 @@ p{
     font-size: 14px;
     padding: 5px 0;
 }
-.univ-d ul li::before{
-    content: "+";
-    color: #fff;
-    font-weight: 700;
-    margin-right: 4px;
-    border: 1px solid #8f49f9;
-    border-radius: 50%;
-    background-color: #8f49f9;
+.fa-circle-plus{
+    margin-right: 10px;
 }
 .div-one{
     background-image: url(/img/facalty1.png);
@@ -250,4 +251,3 @@ p{
     background-color: #ffaaf6;
     border: 1px solid #ffaaf6;
 }
-
