@@ -383,3 +383,32 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Team Section Section */
+.team-design{
+    text-align: center;
+}
+.team-imm{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.team-imm1{
+    background-image: url(/img/team_bg_1.png);
+}
+.team-imm2{
+    background-image: url(/img/team_bg_2.png);
+}
+.team-imm3{
+    background-image: url(/img/team_bg_3.png);
+}
+.team-design img{
+    height: 200px;
+    width: 200px;
+}
+.team-design h3{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.degi{
+    font-size: 12px !important;
+}
