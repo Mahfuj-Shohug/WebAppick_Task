@@ -356,12 +356,14 @@
             <div class="row blog-row">
                 <div class="col-md-4">
                     <div class="blog-div">
-                        <div class="blog-img">
+                        <div id="parentdiv">
+                            <div class="blog-img">
 
-                        </div>
-                        <div class="blog-date">
-                            <h3>24</h3>
-                            <p>Sep</p>
+                            </div>
+                            <div class="blog-date">
+                                <h3>24</h3>
+                                <p>Sep</p>
+                            </div>
                         </div>
                         <div class="blog-sumry">
                             <h5>A good content strategy can
@@ -373,13 +375,14 @@
                 </div>
                 <div class="col-md-4">
                     <div class="blog-div">
+                        <div id="parentdiv">
+                            <div class="blog-img">
 
-                        <div class="blog-img">
-
-                        </div>
-                        <div class="blog-date">
-                            <h3>24</h3>
-                            <p>Sep</p>
+                            </div>
+                            <div class="blog-date">
+                                <h3>24</h3>
+                                <p>Sep</p>
+                            </div>
                         </div>
                         <div class="blog-sumry">
                             <h5>Generate highly targeted
@@ -392,16 +395,18 @@
                 </div>
                 <div class="col-md-4">
                     <div class="blog-div">
-                        <div class="blog-img">
+                        <div id="parentdiv">
+                            <div class="blog-img">
 
-                        </div>
-                        <div class="blog-date">
-                            <h3>24</h3>
-                            <p>Sep</p>
+                            </div>
+                            <div class="blog-date">
+                                <h3>24</h3>
+                                <p>Sep</p>
+                            </div>
                         </div>
                         <div class="blog-sumry">
                             <h5>Forecast Demand, Automate
-                                Purchasing</h5>
+                                Purchasing Demand</h5>
                             <p>A good content strategy can help engage your consumers and position your
                                 company as an effective</p>
                         </div>
@@ -414,47 +419,57 @@
     <footer id="footer">
         <div class="container footer-cont">
             <div class="row footer-row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 footerdiv name">
                     <h5>WebAppick</h5>
-                    <p>Language : English (UK)</p>
-                    <a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="language">
+                        <p class="lang">Language : <span class="span2">English (UK)</span></p>
+                    <a class="rig" href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    </div>
                     <div class="footer-link">
                         <a href="#">CAREERS</a>
                         <a href="#">CONTACT</a>
                         <a href="#">PRIVACY</a>
                     </div>
                     <div class="footer-icon">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><img src="img/web2.png" alt=""></a>
+                        <div class="facebook">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><img src="img/web2.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <h5>Information</h5>
-                    <p>113 momo Street, bd 721
+                <div class="col-md-3 col-sm-6 footerdiv info">
+                    <h6>Information</h6>
+                    <p>113 momo Street, bd 721 <br>
                         NY 20012</p>
                     <div class="footer-contract">
                         <a class="mail" href="mailto:kabbohelp@gmail.com">kabbohelp@gmail.com</a>
                         <a class="tell" href="tel:+88 (0) 29292162">+88 (0) 29292162</a>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <h5>About Company</h5>
-                    <div class="footer-link2">
-                        <a href="#">How it works</a>
-                        <a href="#">Development</a>
-                        <a href="#">Digital markeing</a>
-                        <a href="#">Services</a>
-                        <a href="#">Security</a>
+                <div class="col-md-3 col-sm-6 footerdiv about">
+                    <h6>About Company</h6>
+                    <div>
+                        <a class="footer-link2" href="#">How it works</a>
+                        <a class="footer-link2" href="#">Development</a>
+                        <a class="footer-link2" href="#">Digital markeing</a>
+                        <a class="footer-link2" href="#">Services</a>
+                        <a class="footer-link2" href="#">Security</a>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <h5>Stay In Loop</h5>
+                <div class="col-md-3 col-sm-6 footerdiv loop">
+                    <h6>Stay In Loop</h6>
                     <p>Subscribe to receive biweekly tips on creative automation and digital advertising!</p>
                     <div class="footer-form">
                         <form action="post">
-                            <input type="email" name="email" id="email" placeholder="What’s Your email">
+                            <div id="parentdiv">
+                                <input type="email" name="email" id="email" placeholder="What’s Your email">
                             <a href="#"><i class="fa-solid fa-play"></i></a>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -462,12 +477,12 @@
         </div>
         <div class="container app-cont">
             <div class="row">
-                <div class="col-md-6 col-sm-6 app-store">
-                    <button class="app"><i class="fa-brands fa-apple"></i><span>App Store</span></button>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <button class="app"><i class="fa-brands fa-google-play"></i><span>App Store</span></button>
-                </div>
+                    <div class="col-md-6 col-sm-6 app-store">
+                        <button class="app"><i class="fa-brands fa-apple"></i><span>App Store</span></button>
+                    </div>
+                    <div class="col-md-6 col-sm-6 app-store2">
+                        <button class="app"><i class="fa-brands fa-google-play"></i><span>App Store</span></button>
+                    </div>
             </div>
         </div>
         <div class="copyright">

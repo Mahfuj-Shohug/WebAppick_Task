@@ -19,7 +19,7 @@ button{
     color: #9655f9;
     font-size: 14px;
     font-weight: 700;
-    box-shadow: 1px 1px 2px 2px  rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
     text-transform: uppercase !important;
 }
 button:hover{
@@ -29,7 +29,7 @@ button:hover{
     color: #fff;
     font-size: 14px;
     font-weight: 700;
-    box-shadow: 1px 1px 2px 2px  rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
     text-transform: uppercase !important;
 }
 .container-picture img{
@@ -192,7 +192,7 @@ p{
 }
 .univ-d{
     border: 1px solid rgb(232, 227, 227);
-    box-shadow: 1px 1px 2px 2px  rgba(116, 114, 114, 0.5);
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -487,16 +487,22 @@ p{
     text-align: center;
     padding: 20px;
 }
+#parentdiv{
+    position: relative;
+}
 .blog-img{
     height: 250px;
     background-color: #e9e5fe;
 }
 .blog-div{
-    padding: 15px;
     margin: 20px;
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 4px 3px  #f7f2fe;
+    height: 450px;
 }
 .blog-date{
-    z-index: -1;
+    padding-top: 12px;
+    position: absolute;
     text-align: center;
     height: 70px;
     width: 70px;
@@ -504,6 +510,27 @@ p{
     background-color: #fff;
     box-shadow: 3px 3px 4px 3px  #e5e2e8;
     border-radius: 10%;
+    top: 215px;
+    left: 10px;
+}
+.blog-date h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #8f49f9;
+}
+.blog-date p{
+    font-size: 12px !important;
+    color: #8f49f9;
+    font-weight: 500;
+    padding-top: 0px;
+    margin: 0 !important;
+}
+.blog-sumry{
+    padding: 60px 10px;
+}
+.blog-sumry h5{
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* Footer Section  */
@@ -514,4 +541,148 @@ p{
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+.footerdiv {
+    padding-top: 50px;
+}
+.name h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: #8f49f9;
+}
+.language{
+    display: inline-flex;
+    padding-top: 30px;
+}
+.language p{
+    font-size: 13px;
+}
+.language .span2{
+    font-size: 13px;
+    color: #fea799;
+    padding-right: 5px;
+}
+.language .fa-caret-down{
+    font-size: 13px;
+    color: #fea799;
+}
+.social{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
+}
+.facebook{
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: #8e48f9;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #8e48f9;
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
+    border-radius: 50%;
+}
+.facebook .fa-facebook-f{
+    color: #fff !important;
+}
+.footer-link a{
+    color: #8e93ae;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+.footer-icon{
+    padding-top: 10px;
+}
+
+.footer-icon img{
+    height: 15px;
+    width: 12px;
+    padding-bottom: 3px;
+}
+.footer-icon .fa-brands{
+    color: #bd91ff;
+    height: 15px;
+    width: 15px;
+}
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.footer-row h6{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.footer-row p{
+    font-size: 13px;
+    color: #a0a4bc;
+}
+.footer-row a{
+    text-decoration: none;
+    color: #a0a4bc;
+}
+.info a{
+    display: block;
+}
+.tell{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #9e61fa !important;
+}
+.about a{
+    display: block;
+}
+.footer-link2{
+    padding-bottom: 10px;
+}
+.footer-form{
+    margin-top: 50px;
+}
+.footer-form{
+    margin-top: 50px;
+}
+.footer-form input{
+    padding: 10px;
+    background-color: #fff;
+    border: #fff;
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
+}
+.fa-play{
+    position: absolute;
+    top: 15px;
+    left: 55%;
+}
+.app-cont{
+    margin-top: 40px;
+}
+.app-store{
+    text-align: right;
+}
+.app-store2{
+    text-align: left;
+}
+.app:hover{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 3px 3px 4px 3px  #e5e2e8;
+    text-transform: uppercase !important;
+}
+.app i{
+    color: #8f49f9 !important;
+}
+.app span{
+    padding-left: 10px;
 }
