@@ -119,7 +119,7 @@ p{
 /* Banner Design */
 #banner{
     margin: 0 0 !important;
-    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url(/img/background.png);
+    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url(./img/background.png);
     color: #fff;
     padding-top: 5%;
     background-position: center;
@@ -175,7 +175,7 @@ p{
 
 /* Analysis List Section */
 #analysis{
-    background-image: url(/img/section_3background.png);
+    background-image: url(./img/section_3background.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,21 +243,21 @@ p{
     margin-right: 10px;
 }
 .div-one{
-    background-image: url(/img/facalty1.png);
+    background-image: url(./img/facalty1.png);
 }
 .icon-design-one{
     background-color: #9de78a;
     border: 1px solid #9de78a;
 }
 .div-two{
-    background-image: url(/img/facalty2.png);
+    background-image: url(./img/facalty2.png);
 }
 .icon-design-two{
     background-color: #4ae4a8;
     border: 1px solid #4ae4a8;
 }
 .div-three{
-    background-image: url(/img/facalty3.png);
+    background-image: url(./img/facalty3.png);
 }
 .icon-design-three{
     background-color: #ffaaf6;
@@ -265,7 +265,7 @@ p{
 }
 /* Company History Section */
 #agency{
-    background-image: url(/img/section_2_background.png);
+    background-image: url(./img/section_2_background.png);
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ p{
 }
 .container-picture2{
     text-align: right;
-    background-image: url(/img/Ellipse.png);
+    background-image: url(./img/Ellipse.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -317,7 +317,7 @@ p{
 }
 /* Company Services Section */
 #our-services{
-    background-image: url(/img/section_3background.png);
+    background-image: url(./img/section_3background.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -360,25 +360,25 @@ p{
     font-weight: 700;
 }
 .services-design1{
-    background-image: url(/img/facalty3.png);
+    background-image: url(./img/facalty3.png);
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .services-design2{
-    background-image: url(/img/facalty3.png);
+    background-image: url(./img/facalty3.png);
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .services-design3{
-    background-image: url(/img/facalty2.png);
+    background-image: url(./img/facalty2.png);
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .services-design4{
-    background-image: url(/img/facalty4.png);
+    background-image: url(./img/facalty4.png);
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,13 +394,13 @@ p{
     background-size: contain;
 }
 .team-imm1{
-    background-image: url(/img/team_bg_1.png);
+    background-image: url(./img/team_bg_1.png);
 }
 .team-imm2{
-    background-image: url(/img/team_bg_2.png);
+    background-image: url(./img/team_bg_2.png);
 }
 .team-imm3{
-    background-image: url(/img/team_bg_3.png);
+    background-image: url(./img/team_bg_3.png);
 }
 .team-design img{
     height: 200px;
@@ -428,7 +428,7 @@ p{
     margin-top: 20px;
 }
 #task{
-    background-image: url(/img/section_4_background.png);
+    background-image: url(./img/section_4_background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -436,7 +436,7 @@ p{
 
 /* Testimunial section */
 #testimunial{
-    background-image: url(/img/section_5_background.png);
+    background-image: url(./img/section_5_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
@@ -536,7 +536,7 @@ p{
 
 /* Footer Section  */
 #footer{
-    background-image: url(/img/footer_bg.png);
+    background-image: url(./img/footer_bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
