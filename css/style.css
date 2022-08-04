@@ -203,7 +203,7 @@ p {
 
 /* Analysis List Section */
 #analysis {
-    background-image: url(./img/section_3background.png);
+    background-image: url("../img/section_3background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -284,7 +284,7 @@ p {
 }
 
 .div-one {
-    background-image: url(./img/facalty1.png);
+    background-image: url("../img/facalty1.png");
 }
 
 .icon-design-one {
@@ -293,7 +293,7 @@ p {
 }
 
 .div-two {
-    background-image: url(./img/facalty2.png);
+    background-image: url("../img/facalty2.png");
 }
 
 .icon-design-two {
@@ -302,7 +302,7 @@ p {
 }
 
 .div-three {
-    background-image: url(./img/facalty3.png);
+    background-image: url("../img/facalty3.png");
 }
 
 .icon-design-three {
@@ -312,7 +312,7 @@ p {
 
 /* Company History Section */
 #agency {
-    background-image: url(./img/section_2_background.png);
+    background-image: url("../img/section_2_background.png");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat;
@@ -335,7 +335,7 @@ p {
 
 .container-picture2 {
     text-align: right;
-    background-image: url(./img/Ellipse.png);
+    background-image: url("../img/Ellipse.png");
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -372,7 +372,7 @@ p {
 
 /* Company Services Section */
 #our-services {
-    background-image: url(./img/section_3background.png);
+    background-image: url("../img/section_3background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -398,7 +398,7 @@ p {
     border: 1px solid #fff;
     background-color: #fff;
     border-radius: 10%;
-    box-shadow: 2px 3px 2px 1px rgba(168, 165, 165, 0.1);
+    box-shadow: 2px 3px 2px 1px rgba(211, 206, 206, 0.208);
 }
 
 .icons img {
@@ -408,7 +408,7 @@ p {
 
 .service {
     border: 1px solid #fff;
-    box-shadow: 3px 3px 3px 3px rgba(168, 165, 165, 0.1);
+    box-shadow: 3px 3px 3px 3px rgba(197, 193, 193, 0.3);
     padding: 20px;
     height: max-content;
     margin-top: 20px;
@@ -422,28 +422,28 @@ p {
 }
 
 .services-design1 {
-    background-image: url(./img/facalty3.png);
+    background-image: url("../img/facalty3.png");
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .services-design2 {
-    background-image: url(./img/facalty3.png);
+    background-image: url("../img/facalty3.png");
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .services-design3 {
-    background-image: url(./img/facalty2.png);
+    background-image: url("../img/facalty2.png");
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .services-design4 {
-    background-image: url(./img/facalty4.png);
+    background-image: url("../img/facalty4.png");
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
@@ -462,15 +462,15 @@ p {
 }
 
 .team-imm1 {
-    background-image: url(./img/team_bg_1.png);
+    background-image: url("../img/team_bg_1.png");
 }
 
 .team-imm2 {
-    background-image: url(./img/team_bg_2.png);
+    background-image: url("../img/team_bg_2.png");
 }
 
 .team-imm3 {
-    background-image: url(./img/team_bg_3.png);
+    background-image: url("../img/team_bg_3.png");
 }
 
 .team-design img {
@@ -505,7 +505,7 @@ p {
 }
 
 #task {
-    background-image: url(./img/section_4_background.png);
+    background-image: url("../img/section_4_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -513,7 +513,7 @@ p {
 
 /* Testimunial section */
 #testimunial {
-    background-image: url(./img/section_5_background.png);
+    background-image: url("../img/section_5_background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: inherit;
@@ -630,7 +630,7 @@ p {
 
 /* Footer Section  */
 #footer {
-    background-image: url(./img/footer_bg.png);
+    background-image: url("../img/footer_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
