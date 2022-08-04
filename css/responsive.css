@@ -1,0 +1,92 @@
+/* All responsive is here */
+
+@media screen and (max-width: 992px) {
+    .univ-d{
+        margin: 0px !important;
+    }
+    .testimunial-spech{
+        margin: 30px 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #banner{
+        height: 80vh;
+        padding-top: 150px !important;
+    }
+    .banner-design h1{
+        margin-top: 30px;
+    }
+    .banner-design img{
+        height: 250px;
+        width: 380px;
+    }
+    .banner-img{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .container-picture{
+        text-align: center;
+    }
+    .univ-d{
+        margin-top: 20px !important;
+    }
+    .container-picture2{
+        text-align: center;
+    }
+    .container-picture2 img{
+        margin-top: 30px;
+    }
+   
+    .testimunial-spech{
+        margin: 30px 50px;
+    }
+    
+   
+}
+@media screen and (max-width: 576px) {
+    #banner{
+        height: 80vh;
+        padding-top: 30px !important;
+    }
+    #footer{
+        text-align: center;
+    }
+    .app-store{
+        text-align: center;
+    }
+    .app-store2{
+        text-align: center;
+    }
+    .app{
+        margin-top: 15px;
+    }
+    .fa-play{
+        left: 350px;
+    }
+    .button-a{
+        text-align: center;
+    }
+    .analysis-div h2{
+        text-align: center;
+    }
+    .inline-class{
+        margin-left: 220px;
+    }
+    .agency-div{
+        text-align: center;
+    }
+    .our-services{
+        text-align: center;
+    }
+    .two-container-div{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 391px){
+    .inline-class{
+        margin-left: 130px;
+    }
+    .fa-play{
+        left: 250px;
+    }
+}
