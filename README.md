@@ -14,8 +14,8 @@
 
 
 ## Contact
-Created by Md. Mahfuj Hasan Shohug
-Software Engineer
-Dhaka, Bangladesh
+Created by Md. Mahfuj Hasan Shohug <br>
+Software Engineer <br>
+Dhaka, Bangladesh <br>
 Gmail: shohug.mahfuj@gmail.com
 
