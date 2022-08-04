@@ -90,3 +90,11 @@
         left: 250px;
     }
 }
+@media screen and (max-width: 415px){
+    .inline-class{
+        margin-left: 145px;
+    }
+    .fa-play{
+        left: 250px;
+    }
+}
