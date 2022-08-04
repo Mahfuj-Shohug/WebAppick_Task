@@ -139,7 +139,7 @@ p {
 /* Banner Design */
 #banner {
     margin: 0 0 !important;
-    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url("./img/background.png");
+    background-image: linear-gradient(to right, rgba(121, 90, 251, 0.8), rgba(196, 83, 249, 0.8)), url("/img/background.png");
     color: #fff;
     padding-top: 5%;
     background-position: center;
